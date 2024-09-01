@@ -1,4 +1,4 @@
-import SignupFormDemo from '@/app/components/signup'
+import SignupFormDemo from '@/app/(root)/components/signup'
 import { getLoggedInUser } from '@/lib/server/users.actions';
 import { redirect } from 'next/navigation';
 import React from 'react'

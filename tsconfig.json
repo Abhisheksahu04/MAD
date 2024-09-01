@@ -24,7 +24,7 @@
 
  
 
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/Card/Card1"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(root)/Card/Card1"],
 
   "exclude": ["node_modules"]
 }

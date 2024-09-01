@@ -1,7 +1,7 @@
-import Gallery from "@/app/Carousel/carousel";
-import Bglandingpage from "@/app/components/bglandingpage";
-import Carousel from "@/app/components/Carousel";
-import Largescreenfooter from "@/app/components/largescreenfooter";
+import Gallery from "@/app/(root)/Carousel/carousel";
+import Bglandingpage from "@/app/(root)/components/bglandingpage";
+import Carousel from "@/app/(root)/components/Carousel";
+import Largescreenfooter from "@/app/(root)/components/largescreenfooter";
 import Image from "next/image";
 
 export default function HomePage() {

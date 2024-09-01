@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
+import { CardBody, CardContainer, CardItem } from "@/app/(root)/components/ui/3d-card";
 import Link from "next/link";
 
 interface ThreeDCardDemoProps {
@@ -11,11 +11,7 @@ interface ThreeDCardDemoProps {
   description: string;
 }
 
-export default function ThreeDCardDemo({
-  title,
-  imagelink,
-  description,
-}: ThreeDCardDemoProps) {
+const ThreeDCardDemo: React.FC<ThreeDCardDemoProps> = ({ title, imagelink, description }) => {
   return (
     <CardContainer className="inter-var">
       <CardBody
@@ -65,3 +61,5 @@ export default function ThreeDCardDemo({
     </CardContainer>
   );
 }
+
+export default ThreeDCardDemo;

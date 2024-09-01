@@ -1,6 +1,6 @@
 // src/app/layout.js
 import { Inter,Sulphur_Point } from "next/font/google";
-import "./homepage/homepage.css";
+import "./homepage.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
